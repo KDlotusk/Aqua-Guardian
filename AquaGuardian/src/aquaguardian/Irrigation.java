@@ -11,4 +11,27 @@ package aquaguardian;
  */
 public class Irrigation {
     
+    private Parcelle[] parcelleTab;
+    private Calendar calendar;
+    
+    public Irrigation(){
+        
+    }
+    
+    public void arrosageParcelles(){
+        
+    }
+    
+    public void addParcelle(Parcelle parcelle){
+        
+    }
+    
+    public void askMeteo(){
+        
+    }
+    
+    public void notifWater(){
+        
+    }
+    
 }

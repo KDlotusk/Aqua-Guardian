@@ -11,4 +11,17 @@ package aquaguardian;
  */
 public class Arrosage {
     
+    private int dateArrosage;                                                   //Date as a TimeStamp 
+    private int quantiteEau;                                                    //Qauntité d'eau restante dans le réservoir
+    private Parcelle parcelle;                                                  //Parcelle arroser (Permet l'activation des pompes)
+    
+    public Arrosage(Parcelle parcelle){                                         //Constructeur
+        
+    }
+    
+    private void activerPompe(){                                                //Fonction d'activation de/des pompe(s) de la parcelle
+        
+    }
+    
+    
 }

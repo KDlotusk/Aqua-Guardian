@@ -5,10 +5,25 @@
  */
 package aquaguardian;
 
+import Data.*;
+
 /**
  *
  * @author p2005779
  */
 public class Parcelle {
+    
+    private EnumTypeSol typeDeSol;
+    private EnumExposition expostion;
+    private int dernierArrosage;
+    private int humidite;
+    
+    public Parcelle(){
+        
+    }
+    
+    public boolean rejouterPlante(Plante plante){
+        return true;
+    }
     
 }

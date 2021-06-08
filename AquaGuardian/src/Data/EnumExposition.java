@@ -3,22 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package aquaguardian;
+package Data;
 
 /**
  *
  * @author p2005779
  */
-public class Calendar {
-    
-    private Meteo[] meteoCalendar;
-    
-    public Calendar(){
-        
-    }
-    
-    public void refreshMeteo(){
-        
-    }
-    
+public enum EnumExposition {
+    Ensoleiller, Ombrageux, Sombre;
 }

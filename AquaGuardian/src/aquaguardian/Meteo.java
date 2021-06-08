@@ -5,10 +5,19 @@
  */
 package aquaguardian;
 
+import Data.EnumMeteo;
+
 /**
  *
  * @author p2005779
  */
 public class Meteo {
+    
+    private int date;
+    private EnumMeteo tmpsMatin;
+    private EnumMeteo tmpsAprem;
+    private EnumMeteo tmpsSoir;
+    private int temperature;
+    
     
 }

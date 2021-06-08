@@ -11,4 +11,13 @@ package aquaguardian;
  */
 public class Glossaire {
     
+    private Plante[] planteGlossaire;
+    
+    public Glossaire(){
+        
+    }
+    
+    public void sortGlossaire(){
+        
+    }
 }

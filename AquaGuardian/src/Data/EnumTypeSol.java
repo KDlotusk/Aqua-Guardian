@@ -3,22 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package aquaguardian;
+package Data;
 
 /**
  *
  * @author p2005779
  */
-public class Calendar {
+public enum EnumTypeSol {
     
-    private Meteo[] meteoCalendar;
+    Argileuse, Calcaire, Sableuse, Silicieuse, Tourbeuse, Humifère;  
     
-    public Calendar(){
-        
-    }
-    
-    public void refreshMeteo(){
-        
-    }
     
 }
