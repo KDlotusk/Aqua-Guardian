@@ -6,9 +6,10 @@
 package Alerte;
 
 /**
- *
- * @author p2005779
+ * Gère les conseils pratiques pour l'utilisateur.
+ * 
+ * @see Message
+ * 
+ * @author p2005779, p2000397
  */
-public class Conseil {
-    private Message msg[];
-}
+public class Conseil extends Message {  }

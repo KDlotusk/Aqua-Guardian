@@ -5,21 +5,27 @@
  */
 package Affichage;
 
-import javax.swing.JFrame;
+import javax.swing.JWindow;
 
 /**
- *
- * @author p2005779
+ * Permet de gérer l’affichage dans la fenêtre.
+ * 
+ * @author p2005779, p2000397
  */
-public class Fenetre extends JFrame {
+public class Fenetre extends JWindow {
 
     public Fenetre() {
-        this.setTitle("");
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.affichePage(new Accueil());
+        this.pack();
     }
     
-    
+    /**
+    * Affiche la page passé en paramètre
+    * 
+    * @param p la <code>Page</code> qu'on veut afficher
+    * 
+    * @see Page
+    */
     public void affichePage(Page p) {
         
     }

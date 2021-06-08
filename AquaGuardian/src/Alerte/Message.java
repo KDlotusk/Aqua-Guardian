@@ -6,8 +6,9 @@
 package Alerte;
 
 /**
- *
- * @author p2005779
+ * Gère les différents types de message.
+ * 
+ * @author p2005779, p2000397
  */
 public class Message {
     private String contenu;

@@ -10,15 +10,19 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 
 /**
- *
+ * Contient tous les éléments graphiques pour la page d'accueil.
+ * 
+ * @see Page
+ * 
  * @author p2000397
  */
 public class Accueil extends Page {
-    private JButton buttonConseil, buttonMétéo, buttonNotif;
-    
-    @Override
-    public void affiche() {
-        
+    private JButton btnConseil, btnMétéo, btnNotif;
+
+    public Accueil() {
+        this.btnConseil = new JButton();
+        this.btnMétéo = new JButton();
+        this.btnNotif = new JButton();
     }
     
     @Override

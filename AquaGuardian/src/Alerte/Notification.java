@@ -8,7 +8,10 @@ package Alerte;
 import Data.TypeNotif;
 
 /**
- *
+ * Gère les notifications à envoyer sur le téléphone de l'ordinateur.
+ * 
+ * @see Message
+ * 
  * @author p2005779
  */
 public class Notification extends Message {

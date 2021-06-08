@@ -9,9 +9,10 @@ import java.awt.event.ActionListener;
 import javax.swing.JPanel;
 
 /**
- *
- * @author p2005779
+ * Permet la gestion de l’affichage d'une page.
+ * 
+ * @author p2005779, p2000397
  */
 public abstract class Page extends JPanel implements ActionListener {
-    public abstract void affiche();
+    
 }

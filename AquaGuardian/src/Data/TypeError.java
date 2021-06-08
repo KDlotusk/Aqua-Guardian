@@ -6,7 +6,8 @@
 package Data;
 
 /**
- *
- * @author p2000397
+ * Retourne un type d'erreur.
+ * 
+ * @author p2000397, p2000397
  */
 public enum TypeError {  }

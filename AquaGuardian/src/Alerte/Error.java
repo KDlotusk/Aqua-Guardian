@@ -8,12 +8,18 @@ package Alerte;
 import Data.TypeError;
 
 /**
- *
- * @author p2005779
+ * Permet de gérer les différentes erreurs.
+ * 
+ * @see Message
+ * 
+ * @author p2005779, p2000397
  */
 public class Error extends Message {
     private TypeError type;
     
+    /**
+    * Permet d'afficher l'erreur à l'écran.
+    */
     public void affiche() {
         
     }

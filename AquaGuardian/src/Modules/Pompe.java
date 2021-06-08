@@ -6,10 +6,15 @@
 package Modules;
 
 /**
- *
- * @author p2005779
+ * Permet la gestion de chaque pompe.
+ * 
+ * @author p2005779, p2000397
  */
 public class Pompe {
+    
+    /**
+    * Permet d'activer la pompe.
+    */
     public void activerPompe() {
         
     }
