@@ -32,7 +32,7 @@ public class Parcelle {
     /**
      * Vérifie si la plante passé en paramètre peut être ajouté à la parcelle
      * @param plante Plante souhaitée
-     * @return 
+     * @return Boolean : Si la plante peut être ou non rajoutée 
      */
     public boolean rejouterPlante(Plante plante){
         return true;
