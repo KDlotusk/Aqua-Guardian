@@ -5,11 +5,21 @@
  */
 package Affichage;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author p2005779
  */
-public class Fenetre {
+public class Fenetre extends JFrame {
+
+    public Fenetre() {
+        this.setTitle("");
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.affichePage(new Accueil());
+    }
+    
+    
     public void affichePage(Page p) {
         
     }
