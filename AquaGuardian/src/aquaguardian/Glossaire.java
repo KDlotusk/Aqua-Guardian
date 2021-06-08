@@ -13,11 +13,18 @@ public class Glossaire {
     
     private Plante[] planteGlossaire;
     
+    /**
+     * Crée un tableau permettant de stocker toute les plantes
+     */
     public Glossaire(){
         
     }
     
-    public void sortGlossaire(){
-        
+    /**
+     * Génère un tableau avec les plante corespondants au critère passé en paramètre
+     * @return Plante[]: un tableau de plantes 
+     */
+    public Plante[] sortGlossaire(){
+        return null;
     }
 }

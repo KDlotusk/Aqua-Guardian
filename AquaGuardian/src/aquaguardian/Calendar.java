@@ -13,10 +13,16 @@ public class Calendar {
     
     private Meteo[] meteoCalendar;
     
+    /**
+     * Crée un calendrier (tableau) et stock la météo
+     */
     public Calendar(){
         
     }
     
+    /**
+     * Met à jour la météo pour les 3 jours suivants
+     */
     public void refreshMeteo(){
         
     }

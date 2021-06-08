@@ -19,10 +19,21 @@ public class Plante {
     private String periodePlantation;
     private EnumExposition expostion;
     
-    public Plante(){
+    /**
+     * Crée un objet plante contenant toutes les infos nécessaire sur celle-ci
+     * @param nom Nom de la plante 
+     * @param typeDeSol Type de sol favorable à ça croissance 
+     * @param periodeRecolte Période de récolte de la plante
+     * @param periodePlantation Période de plantation de la plante
+     * @param expostion Exposition nécessaire à ça bonne croissance
+     */
+    public Plante(String nom, EnumTypeSol typeDeSol, String periodeRecolte, String periodePlantation, EnumExposition expostion){
         
     }
     
+    /**
+     * Affichage des information de la plante
+     */
     public void affiche(){
         
     }

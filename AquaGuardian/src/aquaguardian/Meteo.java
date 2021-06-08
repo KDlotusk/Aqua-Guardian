@@ -19,6 +19,16 @@ public class Meteo {
     private EnumMeteo tmpsSoir;
     private int temperature;
     
-    
+    /**
+     * Crée un objet contenant la meteo pour la date renseignée
+     * @param date Date du jour 
+     * @param tmpsMatin Temps attendu pour le matin
+     * @param tmpsAprem Temps attendu pour l'après midi
+     * @param tmpsSoir Temps attendu pour le soir
+     * @param temperature Température moyenne de la journée 
+     */
+    public Meteo(int date, EnumMeteo tmpsMatin, EnumMeteo tmpsAprem,EnumMeteo tmpsSoir, int temperature){
+        
+    }
     
 }
