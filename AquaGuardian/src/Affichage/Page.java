@@ -5,12 +5,13 @@
  */
 package Affichage;
 
-import javax.swing.JFrame;
+import java.awt.event.ActionListener;
+import javax.swing.JPanel;
 
 /**
  *
  * @author p2005779
  */
-public abstract class Page extends JFrame {
+public abstract class Page extends JPanel implements ActionListener {
     public abstract void affiche();
 }
