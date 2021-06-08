@@ -20,4 +20,5 @@ public class Meteo {
     private int temperature;
     
     
+    
 }
