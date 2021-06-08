@@ -5,6 +5,8 @@
  */
 package Alerte;
 
+import Data.TypeError;
+
 /**
  *
  * @author p2005779

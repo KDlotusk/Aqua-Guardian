@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Alerte;
+package Data;
 
 /**
  *
  * @author p2000397
  */
-public enum TypeError {  }
+public enum TypeNotif {  }

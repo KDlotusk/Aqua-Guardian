@@ -5,6 +5,8 @@
  */
 package Alerte;
 
+import Data.TypeNotif;
+
 /**
  *
  * @author p2005779

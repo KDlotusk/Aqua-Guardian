@@ -12,6 +12,8 @@ package Affichage;
 public class Accueil extends Page {
 
     @Override
-    public void affiche() { }
+    public void affiche() {
+        
+    }
     
 }
