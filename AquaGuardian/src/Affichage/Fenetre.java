@@ -10,5 +10,7 @@ package Affichage;
  * @author p2005779
  */
 public class Fenetre {
-    
+    public void affichePage(Page p) {
+        
+    }
 }

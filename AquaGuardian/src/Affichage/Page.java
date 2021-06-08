@@ -5,10 +5,12 @@
  */
 package Affichage;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author p2005779
  */
-public class Page {
-    
+public abstract class Page extends JFrame {
+    public abstract void affiche();
 }

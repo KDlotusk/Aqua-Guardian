@@ -10,5 +10,7 @@ package Modules;
  * @author p2005779
  */
 public class Pompe {
-    
+    public void activerPompe() {
+        
+    }
 }

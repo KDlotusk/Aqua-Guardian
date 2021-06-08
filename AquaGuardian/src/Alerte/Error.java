@@ -9,6 +9,10 @@ package Alerte;
  *
  * @author p2005779
  */
-public class Error {
+public class Error extends Message {
+    private TypeError type;
     
+    public void affiche() {
+        
+    }
 }

@@ -10,5 +10,5 @@ package Alerte;
  * @author p2005779
  */
 public class Conseil {
-    
+    private Message msg[];
 }

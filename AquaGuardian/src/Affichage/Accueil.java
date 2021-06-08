@@ -3,12 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Alerte;
+package Affichage;
 
 /**
  *
- * @author p2005779
+ * @author p2000397
  */
-public class Message {
-    private String contenu;
+public class Accueil extends Page {
+
+    @Override
+    public void affiche() { }
+    
 }

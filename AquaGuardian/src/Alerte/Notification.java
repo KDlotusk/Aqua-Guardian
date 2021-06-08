@@ -9,6 +9,10 @@ package Alerte;
  *
  * @author p2005779
  */
-public class Notification {
+public class Notification extends Message {
+    private TypeNotif type;
     
+    public boolean sentTo() {
+        return true;
+    }
 }

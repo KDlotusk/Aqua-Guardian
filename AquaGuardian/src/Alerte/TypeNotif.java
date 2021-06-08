@@ -7,8 +7,6 @@ package Alerte;
 
 /**
  *
- * @author p2005779
+ * @author p2000397
  */
-public class Message {
-    private String contenu;
-}
+public enum TypeNotif {  }
